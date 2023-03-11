@@ -1,0 +1,138 @@
+/* Color Theme Swatches in Hex */
+.Northern-Lights-1-hex { color: #024059; }
+.Northern-Lights-2-hex { color: #026873; }
+.Northern-Lights-3-hex { color: #04BF8A; }
+.Northern-Lights-4-hex { color: #025940; }
+.Northern-Lights-5-hex { color: #03A64A; }
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #026873;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.titulo{
+    text-transform:uppercase;
+    text-align: center;
+}
+
+.contenedor{
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.contenido{
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 8px;
+    position: relative;
+    padding: 2em;
+    overflow:scroll
+}
+
+.parrafo{
+    line-height: 1.8em;
+    font-weight: 300;
+}
+
+.tabla{
+    width:100%;
+    border-spacing: 0;
+}
+
+.tabla th, .tabla td{
+    padding: 1em;
+    text-align: left;
+}
+
+.tabla tr:nth-child(even){
+    background-color: #d4fae6 ;
+}
+
+.fa-star {
+    color: gold;
+}
+
+.titulo-item{
+    border-bottom-style: solid;
+    border-width: 1.5px;
+    border-color: #419673;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.numero-titulo-item{
+    background-color:#03A64A;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.direccion{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #025940;
+    margin-top: 2em;
+}
+
+.imagen_pepe{
+    float: left;
+    margin-right: 1em;
+    border-radius: 8px;
+    height: 220px;
+    margin-bottom: 1em;
+}
+
+.accion{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.cerrar{
+    background-color: #025940;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abrir{
+    background-color: #025940;
+    color: white;
+    height: 25px;
+    width: 80px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
